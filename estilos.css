@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5B9EED;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.linda-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+.linda-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.linda-container > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.roger-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+.roger-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.roger-container > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.dean-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+.dean-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dean-container > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.elizabeth-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+.elizabeth-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.elizabeth-container > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+hr {
+    height: 1px;
+    width: 300px;
+}
+
+p {
+    padding: 5px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.direction {
+    font-size: 13px;
+}
